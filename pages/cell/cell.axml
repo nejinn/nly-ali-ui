@@ -1,0 +1,161 @@
+<view>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>基础用法</text>
+  </view>
+  <nly-cell-group>
+    <nly-cell
+      title="单元格"
+      value='内容'
+    />
+    <nly-cell
+      title="单元格"
+      value='内容'
+      label='描述信息'
+    />
+
+  </nly-cell-group>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text style='margin:10rpx 5rpx'>点击事件</text>
+  </view>
+  <nly-cell-group>
+    <nly-cell
+      title="点击事件"
+      value='内容'
+      onTap='onTap'
+      clickable
+    />
+    <nly-cell
+      title="单元格"
+      value='内容'
+      icon='coordinates'
+      onTap='onTap'
+      isLink
+    />
+  </nly-cell-group>
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text style='margin:10rpx 5rpx'>单元格大小</text>
+  </view>
+  <nly-cell-group>
+    <nly-cell
+      title="单元格"
+      value='内容'
+      size='large'
+    />
+    <nly-cell
+      title="单元格"
+      value='内容'
+      size='large'
+      label='描述信息'
+    />
+  </nly-cell-group>
+
+  <nly-cell-group title='必填星号'>
+    <nly-cell
+      title="单元格"
+      value='内容'
+      required
+    />
+  </nly-cell-group>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text style='margin:10rpx 5rpx'>展示图标</text>
+  </view>
+  <nly-cell-group>
+    <nly-cell
+      title="单元格"
+      value='内容'
+      icon='coordinates'
+    />
+    <nly-cell
+      title="右侧 rightIcon 插槽"
+      value='内容'
+    >
+      <view slot='rightIcon'>
+        <nly-icon
+          icon='coordinates'
+          className='nly-cell__right-icon'
+        />
+      </view>
+    </nly-cell>
+  </nly-cell-group>
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text style='margin:10rpx 5rpx'>只设置 value</text>
+  </view>
+  <nly-cell value='内容' />
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text style='margin:10rpx 5rpx'>开启点击反馈</text>
+  </view>
+  <nly-cell
+    title="单元格"
+    value='内容'
+    icon='coordinates'
+    clickable
+  />
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text style='margin:10rpx 5rpx'>展示箭头</text>
+  </view>
+  <nly-cell-group>
+    <nly-cell
+      title="单元格"
+      value='内容'
+      icon='coordinates'
+      isLink
+      arrowDirection='down'
+    />
+    <nly-cell
+      title="单元格"
+      value='内容'
+      icon='coordinates'
+      isLink
+    />
+    <nly-cell
+      title="单元格"
+      value='内容'
+      icon='coordinates'
+      isLink
+      arrowDirection='up'
+    />
+    <nly-cell
+      title="单元格"
+      value='内容'
+      icon='coordinates'
+      isLink
+      arrowDirection='left'
+    />
+    <nly-cell
+      title="单元格"
+      value='内容'
+      icon='coordinates'
+      isLink
+      arrowDirection='left'
+    />
+  </nly-cell-group>
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text style='margin:10rpx 5rpx'>垂直居中</text>
+  </view>
+  <nly-cell
+    title="单元格"
+    value='内容'
+    size='large'
+    label='描述信息'
+    center
+  />
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text style='margin:10rpx 5rpx'>title 插槽</text>
+  </view>
+  <nly-cell
+    value='内容'
+    icon='coordinates'
+    isLink
+    arrowDirection='up'
+  >
+    <view slot="title">
+      单元格
+    </view>
+  </nly-cell>
+</view>

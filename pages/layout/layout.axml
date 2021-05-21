@@ -1,0 +1,100 @@
+<view class="demo">
+  <nly-row>
+    <nly-col col='8'> col=8</nly-col>
+    <nly-col col='8'> col=8</nly-col>
+    <nly-col col='8'> col=8</nly-col>
+  </nly-row>
+
+  <nly-row onTap="onTap1">
+    <nly-col col='4'> col=4</nly-col>
+    <nly-col offset='8'>offset=8</nly-col>
+  </nly-row>
+
+  <nly-row>
+    <nly-col
+      offset="12"
+      col="12"
+    >offset: 12, col: 12</nly-col>
+  </nly-row>
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>flex justify 布局</text>
+  </view>
+
+  <nly-row>
+    <nly-col col="6">default</nly-col>
+    <nly-col col="6">default</nly-col>
+    <nly-col col="6">default</nly-col>
+  </nly-row>
+
+  <nly-row justify="center">
+    <nly-col col="6">center</nly-col>
+    <nly-col col="6">center</nly-col>
+    <nly-col col="6">center</nly-col>
+  </nly-row>
+
+  <nly-row justify="end">
+    <nly-col col="6">end</nly-col>
+    <nly-col col="6">end</nly-col>
+    <nly-col col="6">end</nly-col>
+  </nly-row>
+
+  <nly-row justify="between">
+    <nly-col col="6">between</nly-col>
+    <nly-col col="6">between</nly-col>
+    <nly-col col="6">between</nly-col>
+  </nly-row>
+
+  <nly-row justify="around">
+    <nly-col col="6">around</nly-col>
+    <nly-col col="6">around</nly-col>
+    <nly-col col="6">around</nly-col>
+  </nly-row>
+
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>flex align 布局</text>
+  </view>
+
+  <nly-row style='min-height:100rpx'>
+    <nly-col col="6">default</nly-col>
+    <nly-col col="6">default</nly-col>
+    <nly-col col="6">default</nly-col>
+  </nly-row>
+
+  <nly-row
+    align="start"
+    style='min-height:100rpx'
+  >
+    <nly-col col="6">start</nly-col>
+    <nly-col col="6">start</nly-col>
+    <nly-col col="6">start</nly-col>
+  </nly-row>
+
+  <nly-row
+    align="end"
+    style='min-height:100rpx'
+  >
+    <nly-col col="6">end</nly-col>
+    <nly-col col="6">end</nly-col>
+    <nly-col col="6">end</nly-col>
+  </nly-row>
+
+  <nly-row
+    align="baseline"
+    style='min-height:100rpx'
+  >
+    <nly-col col="6">baseline</nly-col>
+    <nly-col col="6">baseline</nly-col>
+    <nly-col col="6">baseline</nly-col>
+  </nly-row>
+
+  <nly-row
+    align="stretch"
+    style='min-height:100rpx'
+  >
+    <nly-col col="6">stretch</nly-col>
+    <nly-col col="6">stretch</nly-col>
+    <nly-col col="6">stretch</nly-col>
+  </nly-row>
+</view>

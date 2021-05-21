@@ -1,0 +1,10 @@
+.demo {
+    padding:20rpx
+}
+
+.demo .nly-row {
+    min-height: 60rpx;
+    background-color: rgb(218, 214, 214);
+    border-radius: 10rpx;
+    margin-bottom: 20rpx;
+}

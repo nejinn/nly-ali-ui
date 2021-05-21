@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "nly-icon": "../Icon/Icon"
+  }
+}

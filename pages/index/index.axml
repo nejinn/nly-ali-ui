@@ -1,0 +1,20 @@
+<view class="demo">
+  <navigator url="/pages/layout/layout">
+    <nly-row justify="center">
+      <view> Layout</view>
+    </nly-row>
+  </navigator>
+
+  <navigator url="/pages/icon/icon">
+    <nly-row justify="center">
+      <view> icon</view>
+    </nly-row>
+  </navigator>
+
+  <navigator url="/pages/cell/cell">
+    <nly-row justify="center">
+      <view> cell</view>
+    </nly-row>
+  </navigator>
+
+</view>

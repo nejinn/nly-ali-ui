@@ -1,0 +1,31 @@
+<view>
+  <nly-row style='text-align: center'>
+    <nly-col col='6'>
+      <nly-icon icon='activity' />
+    </nly-col>
+    <nly-col col='6'>
+      <nly-icon icon='activity' />
+    </nly-col>
+    <nly-col col='6'>
+      <nly-icon icon='activity' />
+    </nly-col>
+    <nly-col col='6'>
+      <nly-icon icon='activity' />
+    </nly-col>
+  </nly-row>
+
+  <nly-row style='text-align: center'>
+    <nly-col
+      a:for='{{icons}}'
+      col='6'
+    >
+      <nly-icon
+        icon={{item}}
+        size='100'
+      />
+      <view style="font-size: 25rpx">
+      <text>{{item}}</text>
+      </view>
+    </nly-col>
+  </nly-row>
+</view>

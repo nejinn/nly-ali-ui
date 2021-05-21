@@ -1,0 +1,14 @@
+<view a:if="{{title}}">
+  <view class='nly-cell-group__title'>
+    <text>{{title}}</text>
+  </view>
+  <view class="nly-cell-group{{border?' nly-hairline--top-bottom':''}}">
+    <slot />
+  </view>
+</view>
+
+<block a:if="{{!title}}">
+  <view class="nly-cell-group{{border?' nly-hairline--top-bottom':''}}">
+    <slot />
+  </view>
+</block>

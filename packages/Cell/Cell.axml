@@ -1,0 +1,37 @@
+<view
+  class="nly-cell{{size==='large'?' nly-cell--large':''}}{{isLink||clickable?' nly-cell--clickable':''}}{{center?' nly-cell--center':''}}{{required?' nly-cell--required':''}}{{className?` ${className}`:''}}"
+  style="{{style}}"
+  onTap='onClick'
+>
+  <block a:if="{{icon}}">
+    <nly-icon
+      icon="{{icon}}"
+      class="nly-cell__left-icon{{iconClass?` ${iconClass}`:''}}"
+    />
+  </block>
+  <block a:if="{{title}}">
+    <view class="nly-cell__title{{titleClass?` ${titleClass}`:''}}">
+      <text>{{title}}</text>
+      <block a:if="{{label}}">
+        <view class="nly-cell__label{{labelClass? ` ${labelClass}`:''}}">{{label}}</value>
+      </block>
+    </view>
+  </block>
+  <slot name='title'>
+  </slot>
+  <block a:if="{{value}}">
+    <view
+      class="nly-cell__value{{value&&!title?' nly-cell__value--alone':''}}{{value?` ${valueClass}`:''}}"
+    >
+      <text>{{value}}</text>
+    </view>
+  </block>
+  <block a:if="{{isLink}}">
+    <nly-icon
+      icon="{{arrowDirection==='right'?'enter':arrowDirection==='down'?'unfold':arrowDirection==='left'?'return':arrowDirection==='up'?'packup':'enter'}}"
+      class="nly-cell__right-icon{{linkClass?` ${linkClass}`:''}}"
+    />
+  </block>
+  <slot name='rightIcon'>
+  </slot>
+</view>

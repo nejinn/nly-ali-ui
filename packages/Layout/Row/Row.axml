@@ -1,0 +1,10 @@
+<import-sjs
+  name="classnames"
+  from="./Row.sjs"
+/>
+<view
+  class="nly-row {{classnames(wrap, justify, align, alignContent)}} {{className}}"
+  style='{{style}}'
+>
+  <slot />
+</view>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "nly-icon": "../../packages/Icon/Icon",
+    "nly-row": "../../packages/Layout/Row/Row",
+    "nly-col": "../../packages/Layout/Col/Col"
+  }
+}

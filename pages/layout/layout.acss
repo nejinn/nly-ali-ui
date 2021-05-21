@@ -1,0 +1,19 @@
+.demo .nly-row {
+  background-color: #9ed2f1
+}
+
+.demo .nly-col {
+  padding: 10rpx
+}
+
+.demo .nly-col:nth-child(odd) {
+  background-color: #39a9ed;
+}
+
+.demo .nly-col:nth-child(even) {
+  background-color: #5cbdfa;
+}
+
+.demo .nly-row {
+  margin-top: 10rpx;
+}

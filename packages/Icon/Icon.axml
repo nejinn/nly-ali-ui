@@ -1,0 +1,4 @@
+<text
+  class="nly nly-{{icon}} {{className}}"
+  style="{{size?`font-size: ${size}rpx;`:''}} {{color?`color: ${color};`:''}}">
+</text>

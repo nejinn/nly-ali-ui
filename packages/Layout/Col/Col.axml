@@ -1,0 +1,10 @@
+<import-sjs
+  name="classnames"
+  from="./Col.sjs"
+/>
+<view
+  class="nly-col {{classnames(col, offset)}} {{className}}"
+  style="{{style}}"
+>
+  <slot />
+</view>

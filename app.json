@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/layout/layout",
+    "pages/icon/icon",
+    "pages/cell/cell"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  }
+}

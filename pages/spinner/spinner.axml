@@ -1,0 +1,36 @@
+<view class='demo'>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>基础用法</text>
+  </view>
+  <nly-spinner />
+  <nly-spinner type='spinner' />
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>自定义颜色 </text>
+  </view>
+  <nly-spinner color="#1989fa" />
+  <nly-spinner type='spinner' color="#1989fa" />
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>自定义大小 </text>
+  </view>
+  <nly-spinner color="#1989fa" size='50' />
+  <nly-spinner type='spinner' color="#1989fa" size='60' />
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>自定义文本 </text>
+  </view>
+  <nly-spinner color="#1989fa"> 加载中---</nly-spinner>
+  <nly-spinner type='spinner' color="#1989fa" size='60'>  加载中---</nly-spinner>
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>自定义文本颜色 </text>
+  </view>
+  <nly-spinner color="#1989fa"> 加载中---</nly-spinner>
+  <nly-spinner type='spinner' text-color="#1989fa" >  加载中---</nly-spinner>
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>垂直模式 </text>
+  </view>
+  <nly-spinner color="#1989fa" vertical> 加载中---</nly-spinner>
+</view>

@@ -1,0 +1,3 @@
+<button class="nly-button{{type?` nly-button--${type}`:''}} nly-button--normal"  hover-class="nly-button--active">
+    <view class="nly-button__content"><view class="nly-button__text">主要按钮</view></view>
+</button>

@@ -1,6 +1,6 @@
 # Cell 单元格
 
-## Cell
+## prop
 
 |  prop   |  类型  |  默认值  | 描述 |
 |  ----  | ----  |----  | ----  |
@@ -20,7 +20,17 @@
 | center  | bool |  | 单元格垂直居中布局 |
 | clickable  | bool | false | 单元格可点击 |
 
+## method
 
 |  methods   |  类型  |  默认值  | 描述 |
 |  ----  | ----  |----  | ----  |
 | onTap  | evt |  | 点击事件 |
+
+
+## slot
+
+|  name   | 描述 |
+|  ----  | ----  |
+| default  | 默认插槽 |
+| title  | title 插槽 |
+| rightIcon  | rightIcon插槽 |

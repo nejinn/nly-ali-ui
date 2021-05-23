@@ -1,0 +1,28 @@
+<import-sjs
+  name="customStyle"
+  from="./Spinner.sjs"
+/>
+
+<view
+  class="nly-loading{{` nly-loading--${type}`}}{{vertical?` nly-loading--vertical`:''}}{{className?` ${className}`:''}}"
+  style="{{style}}"
+>
+  <view
+    class="nly-loading__spinner{{` nly-loading__spinner--${type}`}}{{loadingClass?` ${loadingClass}`:''}}"
+    style="{{customStyle.spinnerStyle(size, color)?customStyle.spinnerStyle(size, color):''}}"
+  >
+    <view
+      a:if="{{ type === 'spinner' }}"
+      a:for="{{ array12 }}"
+      a:key="index"
+      class="nly-loading__dot"
+    >
+    </view>
+  </view>
+  <view
+    class="nly-loading__text{{textClass?` ${textClass}`:''}}"
+    style="{{ customStyle.textStyle(size,color,textColor)?customStyle.textStyle(size,color,textColor):'' }}"
+  >
+    <slot />
+  </view>
+</view>

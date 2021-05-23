@@ -1,0 +1,82 @@
+<view class="demo">
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>类型</text>
+  </view>
+  <nly-badge content='1'>
+    <view class="child" />
+  </nly-badge>
+  <nly-badge content='10'>
+    <view class="child" />
+  </nly-badge>
+  <nly-badge content='999'>
+    <view class="child" />
+  </nly-badge>
+  <nly-badge dot>
+    <view class="child" />
+  </nly-badge>
+  <nly-badge content='Hot'>
+    <view class="child" />
+  </nly-badge>
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>最大值</text>
+  </view>
+
+  <nly-badge content='10' max='9'>
+    <view class="child" />
+  </nly-badge>
+  <nly-badge content='999' max='100'>
+    <view class="child" />
+  </nly-badge>
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>插槽</text>
+  </view>
+
+  <nly-badge>
+    <view class="child" />
+    <view slot='content'> 新 </view>
+  </nly-badge>
+
+  <nly-badge>
+    <view class="child" />
+    <view slot='content'> 
+      <nly-icon icon='close' />
+    </view>
+  </nly-badge>
+
+  <nly-badge>
+    <view class="child" />
+    <view slot='content'> 
+      <nly-icon icon='right' />
+    </view>
+  </nly-badge>
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>颜色</text>
+  </view>
+
+  <nly-badge content='1' color='#1989fa'>
+    <view class="child" />
+  </nly-badge>
+  <nly-badge content='10' color='#1989fa'>
+    <view class="child" />
+  </nly-badge>
+  <nly-badge content='999' color='#1989fa'>
+    <view class="child" />
+  </nly-badge>
+  <nly-badge dot color='#1989fa'>
+    <view class="child" />
+  </nly-badge>
+  <nly-badge content='Hot' color='#1989fa'>
+    <view class="child" />
+  </nly-badge>
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>独立使用</text>
+  </view>
+
+  <nly-badge title='100' max='99'></nly-badge>
+  <nly-badge title='10' max='99'></nly-badge>
+  <nly-badge title='新'></nly-badge>
+</view>

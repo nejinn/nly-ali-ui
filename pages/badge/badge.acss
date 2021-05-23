@@ -1,0 +1,10 @@
+.demo .child {
+    width: 80rpx;
+    height: 80rpx;
+    background: #f2f3f5;
+    border-radius: 10rpx;
+}
+
+.demo .nly-badge__wrapper{
+    margin: 20rpx 40rpx 0 0;
+}

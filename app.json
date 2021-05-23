@@ -3,7 +3,10 @@
     "pages/index/index",
     "pages/layout/layout",
     "pages/icon/icon",
-    "pages/cell/cell"
+    "pages/cell/cell",
+    "pages/spinner/spinner",
+    "pages/button/button",
+    "pages/badge/badge"
   ],
   "window": {
     "defaultTitle": "My App"

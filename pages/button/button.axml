@@ -1,0 +1,7 @@
+<view>
+    <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>类型</text>
+    </view>
+    <nly-button> </nly-button>
+    <nly-button type='danger'> </nly-button>
+</view>

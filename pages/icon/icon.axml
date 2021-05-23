@@ -1,4 +1,7 @@
 <view>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>基础用法</text>
+  </view>
   <nly-row style='text-align: center'>
     <nly-col col='6'>
       <nly-icon icon='activity' />
@@ -14,6 +17,89 @@
     </nly-col>
   </nly-row>
 
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>微标提示</text>
+  </view>
+  <nly-row style='text-align: center; margin: 20rpx 0'>
+    <nly-col col='6'>
+      <nly-badge dot>
+        <nly-icon
+          size='80'
+          icon='addpeople'
+        />
+      </nly-badge>
+    </nly-col>
+
+    <nly-col col='6'>
+      <nly-badge content='88'>
+        <nly-icon
+          size='80'
+          icon='addpeople'
+        />
+      </nly-badge>
+    </nly-col>
+
+    <nly-col col='6'>
+      <nly-badge
+        content='120'
+        max='99'
+      >
+        <nly-icon
+          size='80'
+          icon='addpeople'
+        />
+      </nly-badge>
+    </nly-col>
+
+    <nly-col col='6'>
+      <nly-badge
+        content='120'
+        max='99'
+        color='#1989fa'
+      >
+        <nly-icon
+          size='80'
+          icon='addpeople'
+        />
+      </nly-badge>
+    </nly-col>
+  </nly-row>
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>颜色</text>
+  </view>
+  <nly-row style='text-align: center; margin: 20rpx 0'>
+    <nly-col col='6'>
+      <nly-icon
+        size='80'
+        icon='addpeople'
+        color='#1989fa'
+      />
+      </nly-badge>
+    </nly-col>
+
+    <nly-col col='6'>
+      <nly-icon
+        size='80'
+        icon='addpeople'
+        color='rgb(238, 10, 36)'
+      />
+      </nly-badge>
+    </nly-col>
+
+    <nly-col col='6'>
+      <nly-icon
+        size='80'
+        icon='addpeople'
+        color='#fddf68'
+      />
+      </nly-badge>
+    </nly-col>
+  </nly-row>
+
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>所有类型</text>
+  </view>
   <nly-row style='text-align: center'>
     <nly-col
       a:for='{{icons}}'
@@ -24,7 +110,7 @@
         size='100'
       />
       <view style="font-size: 25rpx">
-      <text>{{item}}</text>
+        <text>{{item}}</text>
       </view>
     </nly-col>
   </nly-row>

@@ -1,4 +1,5 @@
 {
+  "defaultTitle": "button",
   "usingComponents": {
     "nly-button":"../../packages/Button/Button"
   }

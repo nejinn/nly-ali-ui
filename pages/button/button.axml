@@ -1,7 +1,109 @@
-<view>
-    <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+<view class="demo">
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
     <text>类型</text>
-    </view>
-    <nly-button> </nly-button>
-    <nly-button type='danger'> </nly-button>
+  </view>
+  <nly-button> default</nly-button>
+  <nly-button type='primary'> primary</nly-button>
+  <nly-button type='info'> info</nly-button>
+  <nly-button type='warning'> warning</nly-button>
+  <nly-button type='danger'> danger</nly-button>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>朴素按钮</text>
+  </view>
+  <nly-button plain> default</nly-button>
+  <nly-button type='primary'
+    plain
+  > primary
+  </nly-button>
+  <nly-button type='info'
+    plain
+  > info
+  </nly-button>
+  <nly-button type='warning'
+    plain
+  > warning
+  </nly-button>
+  <nly-button type='danger'
+    plain
+  > danger
+  </nly-button>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>disabled 按钮</text>
+  </view>
+  <nly-button
+    plain
+    disabled
+  > default
+  </nly-button>
+  <nly-button type='primary'
+    plain
+    hairline
+    disabled
+  > primary
+  </nly-button>
+  <nly-button type='info'
+    plain
+    hairline
+    disabled
+  > info
+  </nly-button>
+  <nly-button type='warning'
+    plain
+    disabled
+  > warning
+  </nly-button>
+  <nly-button type='danger'
+    plain
+    disabled
+  > danger
+  </nly-button>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>loading 按钮</text>
+  </view>
+  <nly-button
+    loading type="primary" />
+  <nly-button
+    loading type="primary" loading-type="spinner" />
+  <nly-button
+    loading type="info" loading-text="加载中..." />
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>形状 按钮</text>
+  </view>
+  <nly-button
+    square type="primary">方形按钮
+  </nly-button>
+  <nly-button
+    round type="info">圆形按钮
+  </nly-button>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>icon 按钮</text>
+  </view>
+  <nly-button icon="addpeople" type="primary" />
+  <nly-button icon="addpeople" type="primary">按钮</nly-button>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>尺寸 按钮</text>
+  </view>
+  <view class="large">
+    <nly-button type="primary" size="large">大号按钮</nly-button>
+  </view>
+  <nly-button type="primary" size="normal">普通按钮</nly-button>
+  <nly-button type="primary" size="small">小型按钮</nly-button>
+  <nly-button type="primary" size="mini">迷你按钮</nly-button>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>自定义颜色 按钮</text>
+  </view>
+  <nly-button color="#7232dd">单色按钮</nly-button>
+  <nly-button color="#7232dd"
+    plain
+  >单色按钮
+  </nly-button>
+  <nly-button color="linear-gradient(to right, #ff6034, #ee0a24)">
+    渐变色按钮
+  </nly-button>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>点击事件</text>
+  </view>
+  <nly-button color="#7232dd" onTap="ontap">加1 {{value1}}</nly-button>
+  <nly-button color="#7232dd" onTap="ontap1" loading="{{loading1}}">loading</nly-button>
+  <nly-button color="#7232dd" onTap="ontap2" loading="{{loading2}}" disabled>loading</nly-button>
 </view>

@@ -1,0 +1,11 @@
+.demo .nly-button {
+  margin: 10rpx
+}
+
+.large .nly-button{
+  margin: 0;
+}
+
+.large {
+  padding: 10rpx 10rpx
+}

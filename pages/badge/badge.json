@@ -1,4 +1,5 @@
 {
+  "defaultTitle": "badge",
   "usingComponents": {
     "nly-badge":"../../packages/Badge/Badge",
     "nly-icon": "../../packages/Icon/Icon"

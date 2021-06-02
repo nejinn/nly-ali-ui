@@ -5,6 +5,7 @@
 |  prop   |  类型  |  默认值  | 描述 |
 |  ----  | ----  |----  | ----  |
 | className  | string |  | 自定义 Css 类 |
+| type  | string | circular | 类型，可选: circular, spinner |
 | style  | string |  | 自定义式样 |
 | color  | string |  | 自定义颜色 |
 | text-color  | string |  | 自定义文本颜色 |

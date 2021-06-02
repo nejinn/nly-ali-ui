@@ -1,4 +1,5 @@
 {
+  "defaultTitle": "cell",
   "usingComponents": {
     "nly-cell": "../../packages/Cell/Cell",
     "nly-icon":"../../packages/Icon/Icon",

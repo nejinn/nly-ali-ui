@@ -1,7 +1,8 @@
 {
-    "usingComponents": {
-      "nly-cell": "../../packages/Cell/Cell",
-      "nly-icon":"../../packages/Icon/Icon",
-      "nly-spinner":"../../packages/Spinner/Spinner"
-    }
+  "defaultTitle": "spinner",
+  "usingComponents": {
+    "nly-cell": "../../packages/Cell/Cell",
+    "nly-icon": "../../packages/Icon/Icon",
+    "nly-spinner": "../../packages/Spinner/Spinner"
   }
+}

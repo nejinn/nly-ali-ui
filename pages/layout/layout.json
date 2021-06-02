@@ -1,5 +1,6 @@
 {
-    "usingComponents": {
+  "defaultTitle": "layout",
+  "usingComponents": {
     "nly-row": "../../packages/Layout/Row/Row",
     "nly-col": "../../packages/Layout/Col/Col"
   }

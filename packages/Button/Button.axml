@@ -1,3 +1,28 @@
-<button class="nly-button{{type?` nly-button--${type}`:''}} nly-button--normal"  hover-class="nly-button--active">
-    <view class="nly-button__content"><view class="nly-button__text">主要按钮</view></view>
+<import-sjs
+  name="ButtonInitCss"
+  from="./Button.sjs"
+/>
+
+<button
+  class="{{ButtonInitCss.buttonClass(type, size, plain, disabled, loading, square, round, className)}}"
+  hover-class="{{disabled?'nly-button--disabled':`${hoverClass}`}}"
+  style="{{ButtonInitCss.buttonStyle(color, plain, style)}}"
+  onTap="onClick"
+  hover-stay-time="{{hoverStayTime}}"
+  hover-start-time="{{hoverStartTime}}"
+>
+  <view class="nly-button__content">
+    <block a:if="{{loading}}">
+      <nly-spinner type='{{loadingType}}' className="nly-button__loading"/>
+    </block>
+    <block a:if="{{icon}}">
+      <nly-icon icon="{{icon}}" className="nly-button__icon"></nly-icon>
+    </block>
+    <view class="nly-button__text">
+      <block a:if="{{loadingText}}">
+        {{loadingText}}
+      </block>
+      <slot />
+    </view>
+  </view>
 </button>

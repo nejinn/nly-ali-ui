@@ -1,4 +1,5 @@
 {
+  "defaultTitle": "icon",
   "usingComponents": {
     "nly-icon": "../../packages/Icon/Icon",
     "nly-row": "../../packages/Layout/Row/Row",

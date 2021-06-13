@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "transition",
+  "usingComponents": {
+    "nly-transition": "../../packages/Transition/Transition",
+    "nly-cell": "../../packages/Cell/Cell"
+  }
+}

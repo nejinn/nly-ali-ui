@@ -1,4 +1,4 @@
-# Badge
+# Badge  徽章
 
 ## props
 

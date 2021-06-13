@@ -2,6 +2,8 @@
 
 ## row
 
+### prop
+
 |  prop   |  类型  |  默认值  | 描述 |
 |  ----  | ----  |----  | ----  |
 | className  | string |  | 自定义 Css 类 |
@@ -10,4 +12,14 @@
 | justify  | string | start | 水平对齐方式 |
 | align  | string | center | 垂直对齐方式 |
 | style  | string |  | 自定义式样 |
+
 ## col
+
+### prop
+
+|  prop   |  类型  |  默认值  | 描述 |
+|  ----  | ----  |----  | ----  |
+| className  | string |  | 自定义 Css 类 |
+| style  | string |  | 自定义 style |
+| col  | string | 0 | 宽度，col栅格系统水平最多24个等份 |
+| offset  | string | 0 | 偏移量，最多偏移23个单位 |

@@ -1,4 +1,4 @@
-# spinner
+# Spinner 加载状态
 
 ## prop 
 

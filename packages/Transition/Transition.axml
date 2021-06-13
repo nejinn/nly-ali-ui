@@ -1,0 +1,8 @@
+<import-sjs
+  name="customTransition"
+  from="./Transition.sjs"
+/>
+
+<view style="{{customTransition.transitionStyle(customStyle)}}" class="{{customTransition.transitionClass(customClass, className)}}">
+<slot></slot>
+</view>

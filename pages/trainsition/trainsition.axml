@@ -1,0 +1,42 @@
+<view class='demo'>
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>基础用法</text>
+  </view>
+  <nly-cell title="fade 动画"
+    clickable
+    isLink onTap="onShowFade" />
+
+  <nly-cell title="slide-up 动画"
+    clickable
+    isLink onTap="onShowSlideup" />
+
+  <nly-cell title="slide-down 动画"
+    clickable
+    isLink onTap="onShowSlideDown" />
+
+  <nly-cell title="slide-left 动画"
+    clickable
+    isLink onTap="onShowSlideLeft" />
+
+  <nly-cell title="slide-right 动画"
+    clickable
+    isLink onTap="onShowSlideRight" />
+
+  <nly-cell title="罩层 动画"
+    clickable
+    isLink onTap="onShowOverlay" />
+
+  <nly-cell title="自定义 动画"
+    clickable
+    isLink onTap="onShowCustom" />
+
+  <nly-transition show="{{showFade}}" name='fade'>
+    <view class="animate-block" />
+  </nly-transition>
+  <nly-transition show="{{showSlideup}}" name='slide-up' className="animate-block" />
+  <nly-transition show="{{showSlideDown}}" name='slide-down' className="animate-block"/>
+  <nly-transition show="{{showSlideLeft}}" name='slide-left' className="animate-block"/>
+  <nly-transition show="{{showSlideRight}}" name='slide-right' className="animate-block"/>
+  <nly-transition show="{{showOverlay}}" name='fade' className="nly-overlay" />
+    <nly-transition show="{{showCustom}}" name='fade' enterActive="bounce-enter-active" leaveActive="bounce-leave-active" className="animate-block"  />
+</view>

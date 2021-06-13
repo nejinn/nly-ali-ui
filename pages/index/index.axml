@@ -35,4 +35,10 @@
     </nly-row>
   </navigator>
 
+  <navigator url="/pages/trainsition/trainsition">
+    <nly-row justify="center">
+      <view> Trainsition </view>
+    </nly-row>
+  </navigator>
+
 </view>

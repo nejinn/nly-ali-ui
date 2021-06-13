@@ -6,7 +6,8 @@
     "pages/cell/cell",
     "pages/spinner/spinner",
     "pages/button/button",
-    "pages/badge/badge"
+    "pages/badge/badge",
+    "pages/trainsition/trainsition"
   ],
   "window": {
     "defaultTitle": "NLY-ALI-UI"

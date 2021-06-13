@@ -1,5 +1,7 @@
 # Transition 过渡动画
 
+![transition.gif](https://upload-images.jianshu.io/upload_images/9915084-c5436f4dd4880351.gif?imageMogr2/auto-orient/strip)
+
 ## prop 
 
 |  prop   |  类型  |  默认值  | 描述 |

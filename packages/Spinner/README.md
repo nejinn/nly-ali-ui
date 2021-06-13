@@ -1,5 +1,7 @@
 # Spinner 加载状态
 
+![spinner.gif](https://upload-images.jianshu.io/upload_images/9915084-6578fa59b6fc7ba3.gif?imageMogr2/auto-orient/strip)
+
 ## prop 
 
 |  prop   |  类型  |  默认值  | 描述 |

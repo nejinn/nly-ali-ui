@@ -1,5 +1,7 @@
 # Icon 图标
 
+![icon.gif](https://upload-images.jianshu.io/upload_images/9915084-c561c308d1e54a6c.gif?imageMogr2/auto-orient/strip)
+
 ## prop
 
 |  prop   |  类型  |  默认值  | 描述 |

@@ -1,5 +1,8 @@
 # Layout 布局
 
+![layout.gif](https://upload-images.jianshu.io/upload_images/9915084-64353e6178932c5d.gif?imageMogr2/auto-orient/strip)
+
+
 ## row
 
 ### prop

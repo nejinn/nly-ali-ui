@@ -1,5 +1,7 @@
 # Buuton 按钮
 
+![button.gif](https://upload-images.jianshu.io/upload_images/9915084-236f4fdaa92001f8.gif?imageMogr2/auto-orient/strip)
+
 ## prop
 
 |  prop   |  类型  |  默认值  | 描述 |

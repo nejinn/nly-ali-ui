@@ -1,5 +1,7 @@
 # Badge  徽章
 
+![badge.gif](https://upload-images.jianshu.io/upload_images/9915084-b46125495feb3a5f.gif?imageMogr2/auto-orient/strip)
+
 ## props
 
 |  prop   |  类型  |  默认值  | 描述 |

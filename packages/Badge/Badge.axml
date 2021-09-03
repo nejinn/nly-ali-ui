@@ -1,5 +1,5 @@
 <block a:if="{{!title}}">
-<view class="nly-badge__wrapper{{className?` ${className}`:''}} style={{style}}">
+<view class="nly-badge__wrapper{{className?` ${className}`:''}}" style={{style}}>
   <slot />
   <view
     class="nly-badge{{dot?' nly-badge--dot':''}} nly-badge--fixed"
@@ -11,7 +11,7 @@
 </view>
 </block>
 <block a:if="{{title}}">
-  <view class="nly-badge {{className?` ${className}`:''}} style={{style}}">
+  <view class="nly-badge {{className?` ${className}`:''}}" style={{style}}>
     {{convertTitle}}
     <slot name='title'>
   </view>

@@ -13,7 +13,7 @@
     <view class="nly-cell__title{{titleClass?` ${titleClass}`:''}}">
       <text>{{title}}</text>
       <block a:if="{{label}}">
-        <view class="nly-cell__label{{labelClass? ` ${labelClass}`:''}}">{{label}}</value>
+        <view class="nly-cell__label{{labelClass? ` ${labelClass}`:''}}">{{label}}</view>
       </block>
     </view>
   </block>

@@ -1,0 +1,14 @@
+<import-sjs name="customInitCss" from="./Overlay.sjs" />
+
+<block a:if='{{fixed}}'>
+  <nly-transition className="{{customInitCss.customClass(fixed, className)}}" show="{{show}}" onTap='onClick' style="{{customInitCss.customStyle(zIndex, opacity, style)}}">
+    <slot />
+  </nly-transition>
+</block>
+
+<block a:if='{{!fixed}}'>
+  <view class="nly-overlay-relative">
+    <slot />
+    <nly-transition className="{{customInitCss.customClass(fixed, className)}}" show="{{show}}" onTap='onClick' style="{{customInitCss.customStyle(zIndex, opacity, style)}}" />
+  </view>
+</block>

@@ -1,0 +1,7 @@
+{
+  "defaultTitle": "overlay",
+  "usingComponents": {
+    "nly-overlay": "../../packages/Overlay/Overlay",
+    "nly-cell": "../../packages/Cell/Cell"
+  }
+}

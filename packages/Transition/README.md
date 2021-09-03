@@ -16,9 +16,17 @@
 | leave  | string |  | 自定义离开动画初始 css 类 |
 | leaveTo  | string |  | 自定义离开动画结束 css 类 |
 | leaveActive  | string |  | 自定义离开动画激活 css 类 |
+| style  | string |  | 自定义 style |
 
 ## slot
 
 |  name   | 描述 |
 |  ----  | ----  |
 | default  | 默认插槽 |
+
+
+## method
+
+|  methods   |  类型  |  默认值  | 描述 |
+|  ----  | ----  |----  | ----  |
+| onTap  | evt |  | 点击事件 |

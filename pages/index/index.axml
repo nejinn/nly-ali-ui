@@ -1,44 +1,49 @@
 <view class="demo">
   <navigator url="/pages/layout/layout">
     <nly-row justify="center">
-      <view> Layout </view>
+      <view> Layout</view>
     </nly-row>
   </navigator>
 
   <navigator url="/pages/icon/icon">
     <nly-row justify="center">
-      <view> Icon </view>
+      <view> Icon</view>
     </nly-row>
   </navigator>
 
   <navigator url="/pages/cell/cell">
     <nly-row justify="center">
-      <view> Cell </view>
+      <view> Cell</view>
     </nly-row>
   </navigator>
 
   <navigator url="/pages/spinner/spinner">
     <nly-row justify="center">
-      <view> Spinner </view>
+      <view> Spinner</view>
     </nly-row>
   </navigator>
 
   <navigator url="/pages/button/button">
     <nly-row justify="center">
-      <view> Button </view>
+      <view> Button</view>
     </nly-row>
   </navigator>
 
   <navigator url="/pages/badge/badge">
     <nly-row justify="center">
-      <view> Badge </view>
+      <view> Badge</view>
     </nly-row>
   </navigator>
 
   <navigator url="/pages/trainsition/trainsition">
     <nly-row justify="center">
-      <view> Trainsition </view>
+      <view> Trainsition</view>
     </nly-row>
   </navigator>
 
+  <navigator url="/pages/overlay/overlay">
+    <nly-row justify="center">
+      <view> Overlay</view>
+    </nly-row>
+  </navigator>
 </view>

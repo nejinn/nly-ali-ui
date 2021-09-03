@@ -3,6 +3,6 @@
   from="./Transition.sjs"
 />
 
-<view style="{{customTransition.transitionStyle(customStyle)}}" class="{{customTransition.transitionClass(customClass, className)}}">
+<view style="{{customTransition.transitionStyle(customStyle, style)}}" class="{{customTransition.transitionClass(customClass, className)}}" onTap="onClick">
 <slot></slot>
 </view>

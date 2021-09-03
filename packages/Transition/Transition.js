@@ -1,3 +1,5 @@
+import fmtEvent from '../utils/fmtEvent';
+var noop = function noop() { };
 Component({
   mixins: [],
   data: {
@@ -9,14 +11,16 @@ Component({
   props: {
     show: false,
     name: 'fade',
-    className:'',
+    className: '',
     duration: null,
     enter: null,  // enter 初始css
     enterTo: null, // enter 结束 css
     enterActive: null, // enter 激活 css
     leave: null, // leave 初始 css
     leaveTo: null, // leave 结束 css
-    leaveActive: null // leave 激活 css
+    leaveActive: null, // leave 激活 css,
+    style: null,
+    onTap: noop
   },
   didMount() {
     if (this.props.show) {
@@ -59,7 +63,7 @@ Component({
           } else {
             this.setData({
               customClass: enterActive,
-              customStyle:null
+              customStyle: null
             })
           }
         }, 30)
@@ -136,6 +140,10 @@ Component({
           setTimeIds: this.data.setTimeIds + `${t3},`
         })
       }
+    },
+    onClick: function onClick(e) {
+      var event = fmtEvent(this.props, e);
+      this.props.onTap(event);
     }
   },
 });

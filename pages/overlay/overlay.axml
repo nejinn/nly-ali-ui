@@ -1,0 +1,30 @@
+<view class="demo">
+  <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
+    <text>基础用法</text>
+  </view>
+
+  <nly-cell title="罩层"
+    clickable
+    isLink onTap="onShowOverlay" />
+
+  <nly-overlay show="{{show}}" onTap="onShowOverlay" />
+
+  <nly-cell title="嵌入元素"
+    clickable
+    isLink onTap="onShowOverlay1" />
+
+  <nly-overlay show="{{show1}}" onTap="onShowOverlay1">
+    <view class="wrapper">
+      <view class="block" />
+    </view>
+  </nly-overlay>
+
+  <nly-cell title="absolute 罩层，可以嵌套其他组件，加一个蒙层"
+    clickable
+    isLink onTap="onShowOverlay2" />
+
+  <nly-overlay show="{{show2}}" onTap="onShowOverlay2" fixed="{{false}}" opacity='0.4'>
+    <view class="card">
+    </view>
+  </nly-overlay>
+</view>

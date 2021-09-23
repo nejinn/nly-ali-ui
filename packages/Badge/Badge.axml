@@ -6,13 +6,13 @@
     style="{{color?`background: ${color}`:''}}"
   >
     {{convertContent}}
-    <slot name='content'>
+    <slot name='content' />
   </view>
 </view>
 </block>
 <block a:if="{{title}}">
   <view class="nly-badge {{className?` ${className}`:''}}" style={{style}}>
     {{convertTitle}}
-    <slot name='title'>
+    <slot name='title' />
   </view>
 </block>

@@ -3,7 +3,11 @@ Component({
   data: {},
   props: {
     title: '',
-    border: true
+    border: true,
+    className:"",
+    style:"",
+    titleClass:"",
+    titleStyle:"",
   },
   didMount() { },
   didUpdate() { },

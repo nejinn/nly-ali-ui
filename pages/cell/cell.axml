@@ -12,7 +12,6 @@
       value='内容'
       label='描述信息'
     />
-
   </nly-cell-group>
   <view style='padding:20rpx 20rpx; background-color:#f7f8fa'>
     <text style='margin:10rpx 5rpx'>点击事件</text>

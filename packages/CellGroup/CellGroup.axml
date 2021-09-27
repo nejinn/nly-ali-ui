@@ -1,14 +1,19 @@
+<import-sjs
+  name="GroupInitCss"
+  from="./CellGroup.sjs"
+/>
+
 <view a:if="{{title}}">
-  <view class='nly-cell-group__title'>
+  <view class='{{GroupInitCss.titleClass(titleClass)}}' style="{{titleStyle}}">
     <text>{{title}}</text>
   </view>
-  <view class="nly-cell-group{{border?' nly-hairline--top-bottom':''}}">
+  <view class="{{GroupInitCss.groupClass(border, className)}}" style="{{style}}">
     <slot />
   </view>
 </view>
 
 <block a:if="{{!title}}">
-  <view class="nly-cell-group{{border?' nly-hairline--top-bottom':''}}">
+  <view class="{{GroupInitCss.groupClass(border, className)}}" style="{{style}}">
     <slot />
   </view>
 </block>
